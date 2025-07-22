@@ -1,0 +1,53 @@
+   /* h1 {
+            background-color: blue;
+            color:brown
+        }
+
+.className {
+    color:red;
+    
+}
+
+#idName {
+    color:green;
+    background-color: yellow;
+    border: 5px solid blue;
+    border-bottom: 8px solid red;
+    padding: 50px 20px ;
+    margin-top: 20px;
+}
+
+
+* {
+    font-style: italic;
+} */
+
+
+div p {
+    color: red;
+}
+
+div > p {
+    color: green;
+}
+
+div ~ p, div ~ span{
+    color: orange;
+
+
+}
+
+div + p {
+    color: teal;
+    
+}
+
+div + h1 {
+    color: brown;
+}
+
+
+button:hover{
+    background-color: blue;
+    color:yellow
+}
